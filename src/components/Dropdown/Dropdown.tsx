@@ -12,7 +12,7 @@ interface DropdownProps {
   name?: string;
 }
 
-const Dropdown = ({ value, onChange, options, placeholder = 'Select', error, id, name }: DropdownProps) => {
+const Dropdown = ({ value, onChange, options, placeholder = 'Select', error, id }: DropdownProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
