@@ -79,7 +79,7 @@ src/
 |-------|-----------|
 | Name* | Required |
 | Email* | Required, valid email format |
-| Contact No. | Optional, digits only |
+| Contact No. | Required, digits only |
 | Address Line 1* | Required |
 | Address Line 2 | Optional |
 | State | Optional |
@@ -101,11 +101,6 @@ The UI closely follows the provided Figma design with:
 - Proper spacing and typography
 - Hover states and transitions
 
-## ⚠️ Known Limitations
-
-- Data is stored in localStorage (no backend integration)
-- No pagination for large contact lists
-- No sorting functionality
 
 ## 🔧 Scripts
 
