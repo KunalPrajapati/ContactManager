@@ -1,0 +1,63 @@
+.delete-confirm-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+  padding: 20px;  
+}
+
+.delete-message {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.delete-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.delete-actions .btn {
+  flex: 1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-cancel {
+  background: white;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary) !important;
+}
+
+.btn-cancel:hover {
+  background: #eff6ff;
+}
+
+.btn-delete {
+  background: #E11D48;
+  color: white;
+  border: none;
+}
+
+.btn-delete:hover {
+  background: #be123c;
+}
+
+@media (max-width: 400px) {
+  .delete-actions {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .delete-actions .btn {
+    width: 100%;
+    padding: 12px 20px;
+  }
+}
