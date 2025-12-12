@@ -3,8 +3,11 @@
 A functional Contact Manager application built with React, TypeScript, Redux Toolkit, and custom CSS.
 
 ![Contact Manager Screenshot](./1.png)
-![Contact Manager Mobile Screenshot](./2.png)
-![Contact Manager Mobile Screenshot](./3.png)
+
+<p float="left">
+  <img src="./2.png" alt="Contact Manager Mobile Screenshot 1" width="300" />
+  <img src="./3.png" alt="Contact Manager Mobile Screenshot 2" width="300" />
+</p>
 
 ## 🚀 Features
 
