@@ -2,7 +2,9 @@
 
 A functional Contact Manager application built with React, TypeScript, Redux Toolkit, and custom CSS.
 
-![Contact Manager Screenshot](./screenshots/contact-manager.png)
+![Contact Manager Screenshot](./1.png)
+![Contact Manager Mobile Screenshot](./2.png)
+![Contact Manager Mobile Screenshot](./3.png)
 
 ## 🚀 Features
 
